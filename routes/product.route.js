@@ -8,10 +8,10 @@ const {
   deleteProduct,
 } = require("../controllers/product.controller.js");
 
-// GET ALL PRODUCTS
+// READ ALL PRODUCTS
 router.get("/", getProducts);
 
-// GET ONE PRODUCT
+// READ ONE PRODUCT
 router.get("/:id", getProduct);
 
 // CREATE ONE PRODUCT

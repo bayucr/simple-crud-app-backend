@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
   res.send("Hello From Node API Tutorial Video");
 });
 
+// Menghubungkan ke MongoDB
 mongoose
   .connect(
     "mongodb://bayfore:dUB5J1e8HthkvUu8@ac-gjitdeg-shard-00-00.ggkqlkb.mongodb.net:27017,ac-gjitdeg-shard-00-01.ggkqlkb.mongodb.net:27017,ac-gjitdeg-shard-00-02.ggkqlkb.mongodb.net:27017/Node-API?ssl=true&replicaSet=atlas-ymercv-shard-0&authSource=admin&retryWrites=true&w=majority&appName=BackEnd"
